@@ -1,7 +1,9 @@
-// src/pages/CartPage.js
+// src/pages/CartPage.jsx
+
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { removeFromCart } from '../store/cartSlice';
+import './CartPage.css'; // Importing CSS file for CartPage styling
 
 const CartPage = () => {
   const dispatch = useDispatch();
